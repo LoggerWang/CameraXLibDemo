@@ -1,0 +1,3 @@
+include ':CameraXLib'
+include ':app'
+rootProject.name = "CameraXLibDemo"

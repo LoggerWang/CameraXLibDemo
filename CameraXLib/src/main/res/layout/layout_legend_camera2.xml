@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.camera.view.PreviewView
+            android:id="@+id/previewView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+        <TextView
+            android:id="@+id/tvTakePhoto"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:text="拍照"/>
+        <TextView
+            android:id="@+id/tvTakeVideo"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:text="录像"/>
+        <TextView
+            android:id="@+id/tvChange"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:text="切换"/>
+        <ImageView
+            android:id="@+id/ivPreview"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</RelativeLayout>
